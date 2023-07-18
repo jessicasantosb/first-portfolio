@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Bandeira</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font awelsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="navbar">
+        <div class="logo">
+            <h3>Jessica Bandeira</h3>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- language toggle -->
+            <div class="switch">
+                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                <label for="language-toggle"></label>
+                <span class="on">EN</span>
+                <span class="off">PT</span>
+            </div>
+        </ul>
+    </nav>
+    
+    <!-- home section -->
+    <section id="home"">
+        <div>
+            <h1>I am Jessica,</h1>
+            <h3>Front-end Developer</h3>
+            <a class="contact-btn" href="#contact">
+                <span>Talk to me</span>
+            </a>
+        </div>
+        <figure>
+            <figcaption class="anim-typewriter">Hello World <i class="fa-solid fa-code" style="color: #8EAC50;"></i></figcaption>
+            <img src="../images/desktop.png" alt="desktop">
+        </figure>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="card-bg">
+        <div>
+            <h2>About me</h2>
+            <p>Hello! I'm 25 years old and I'm a self-taught web developer enthusiastic, committed to learn and improve my frontend skills. I discovery in the internet a rich source of knowledge, and I'm boosting in technologies as HTML, CSS and JavaScript at platforms as YouTube and Udemy. My willingness for creating incredible interfaces took me to start a lot of projects on GitHub, there is where I applied my skills and try new ideias. My native language is portuguese, but I have a strong understanding in english, mainly in reading, it allows me to access contents and resources in one of the most spoke languages of the technology world. I'm looking forward to opportunities to launch me into the job market and contribute to challenging projects.</p>
+        </div>
+        <div class="card-content">
+            <img src="../images/avatar.png" alt="avatar">
+        </div>
+    </section>
+ 
+    <!-- projects section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="projects-grid">
+            <div class="card">
+                <img src="../images/calculator.png" class="card-img-top" alt="calculator">
+                <div class="card-body">
+                  <h5 class="card-title">Calculator</h5>
+                  <p class="card-text">I've designed a visually appealing calculator using JavaScript with a strong focus on CSS. This calculator allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division. The user interface is beautifully crafted with attention to detail, making it easy to use and pleasing to the eye. It's not just a functional tool; it's also a visual experience.</p>
+                  <a href="https://github.com/jessicasantosb/calculator" target="_blank" class="btn">Repository</a>
+                  <a href="https://jessicasantosb.github.io/calculator/" target="_blank" class="btn">Project</a>
+                </div>
+              </div>    
+              <div class="card">
+                <img src="../images/weather.png" class="card-img-top" alt="weather app">
+                <div class="card-body">
+                  <h5 class="card-title">Weather app</h5>
+                  <p class="card-text">I've developed a weather app as a hands-on project to learn about APIs and Node.js. By integrating with a weather API, it retrieves up-to-date weather data and presents it in a user-friendly format. Users can search for cities or specific locations and instantly receive weather information, such as temperature, humidity, and weather conditions.</p>
+                  <a href="https://github.com/jessicasantosb/weather-app" target="_blank" class="btn">Repository</a>
+                  <a href="https://jessicasantosb.github.io/weather-app/" target="_blank" class="btn">Project</a>
+                </div>
+              </div>    
+              <div class="card">
+                <img src="../images/sign-in.png" class="card-img-top" alt="sign-in page">
+                <div class="card-body">
+                  <h5 class="card-title">Sign-in page</h5>
+                  <p class="card-text">I've successfully created and deployed my first project, a sign-in page, using Bootstrap, API, and Node.js. This project allowed me to gain hands-on experience in web development, integrating front-end design with Bootstrap for a sleek and responsive user interface. Through Node.js, I implemented back-end functionality to handle data processing.</p>
+                  <a href="https://github.com/jessicasantosb/landing-page" target="_blank" class="btn ">Repository</a>
+                  <a href="http://landingpage-p8g0.onrender.com/" target="_blank" class="btn">Project</a>
+                </div>
+              </div>
+              <div class="card" aria-hidden="true">
+                <img src="../images/keyboard.png" class="card-img-top" alt="keyboard">
+                <div class="card-body">
+                  <h5 class="card-title placeholder-glow">
+                    <span class=" col-6">In progress...</span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                    <span>More content comming soon</span><br>
+                    <span class="placeholder col-7"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                  </p>
+                  <a class="btn disabled placeholder col-2" style="background-color: #213363;"></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- technologies section -->
+    <section id="technologies">
+        <h2>Technologies and Tools</h2>
+        <div class="technologies-icons">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vs code"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact"">
+        <h2>Talk to me</h2>
+        <div class="contact-content">
+            <div>
+                <div class="popup">
+                    <span class="popuptext" id="myPopup">Email copied to clipboard!</span>
+                </div>
+                <div class="contact-flex">
+                    <div class="contact-icons">
+                        <a id="copy-email" class="contact-btn" ><span>
+                            <i id="email-icon" class="fa-solid fa-copy fa-2xl"></i> Copy email                        
+                        </span></a>                      
+                        <a class="contact-btn" class="contact-btn" href="https://github.com/jessicasantosb" target="_blank" ><span>
+                            <i id="github-icon" class="fa-brands fa-github fa-2xl"></i> GitHub
+                        </span></a><br>
+                        <a class="contact-btn" href="https://www.linkedin.com/in/jessica-santosb/" target="_blank"><span>
+                            <i id="linkedin-icon" class="fa-brands fa-linkedin fa-2xl"></i> LinkedIn
+                        </span></a>                
+                    </div>
+                </div>
+            </div>           
+            <div class="contact-img">
+                <img src="../images/mobile-phone.png" alt="mobile phone">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <p>&copy; Developed by Jessica Bandeira</p>
+        <p>The avatar image was created with <a href="http://picrew.me/share?cd=iKTOYblT1U" target="_blank" rel="noopener noreferrer">Picrew’s “AmphyPop Doll Maker“</a></p>
+        <p>Phone ringing icons created by <a href="https://www.flaticon.com/free-icons/phone-ringing" title="phone ringing icons">DinosoftLabs - Flaticon</a></p>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
