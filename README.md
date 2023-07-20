@@ -7,7 +7,7 @@
 <p align="center">Welcome to my portfolio! Here, you'll find a collection of my projects and learn more about me. Enjoy exploring my work and getting to know me better.</p>
 
 <h1 align="center">
-    <a href="">Live preview soon</a>
+    <a href="https://jessicasantosb.github.io/portfolio/">Live preview</a>
 </h1>
 <p align="center">🚀 Created by Jessica Bandeira</p>
 <br>
