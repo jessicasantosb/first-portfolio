@@ -1,7 +1,4 @@
 # Personal Portfolio
-<h4 align="center"> 
-	🚧  My portfolio 🚀 Building...  🚧
-</h4>
 
 ## Project description
 <p align="center">Welcome to my portfolio! Here, you'll find a collection of my projects and learn more about me. Enjoy exploring my work and getting to know me better.</p>
