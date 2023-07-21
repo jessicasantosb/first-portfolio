@@ -17,6 +17,9 @@ hamburger.addEventListener('click', () => {
   });
 });
 
+// script to change the language of the page is on html file (it doesn´t worked here yet)
+
+
 //***** Contact section *****//
 // to put the email on clipboard when the button is clicked
 const btn = document.querySelector("#copy-email");
