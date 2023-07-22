@@ -582,6 +582,9 @@ figure figcaption {
     flex-direction: column;
     padding: 20px;
     bottom: 0;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #footer p {
     --b: 0.1em;   /* thickness of the line */
